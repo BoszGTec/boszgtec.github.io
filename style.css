@@ -21,7 +21,7 @@
                 font-family: var(--font_fam_headder);
                 color : var(--font_color_head);
                 margin-left: 2rem;
-
+                width: 100%;
                 text-shadow: #fff 0px 0px 10px;
             }
             .p1{
