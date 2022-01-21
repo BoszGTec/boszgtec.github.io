@@ -17,7 +17,6 @@ function typingstart(line,text,time){
             name.style.opacity="100%"
         },time*(i+2)
     )
-  name=""
     clearTimeout()
 }
 function settext_for_tying(line,text,time){
