@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" >
+        <script src='script.js'></script>
+    </head>
+    <body >
+        <div class="p1">
+            <h1>
+                <span id="sym">$</span>
+                <span class="typingstart"></span>
+                <span id="type_bar">|</span>
+                <br>
+                <span id="name">I'm Supaschai Ph.</span>
+                
+            </h1>
+        </div>
+        
+    </body>
+    <script>
+        settext_for_tying(0,"echo Introduction.txt",600)
+        var bd=document.getElementsByTagName("body")[0];
+        bd.addEventListener("wheel",check);
+    </script>
+</html>
