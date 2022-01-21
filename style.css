@@ -1,9 +1,9 @@
-            html{
-                --font_size_head : 40px ;
-                --font_fam_headder : 'Prompt' ;
-                --font_color_head : rgb(255, 255, 255);
-                width: 100%;
-                height: 100%;
+          html{
+            --font_size_head : 40px ;
+            --font_fam_headder : 'Prompt' ;
+             --font_color_head : rgb(255, 255, 255);
+              width: 100%;
+              height: 100%;
             }
             body{
                 margin: 0;
