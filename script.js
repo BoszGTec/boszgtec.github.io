@@ -22,6 +22,8 @@ function typingstart(line,text,time){
         ()=>{
             location.replace("/port")
         },time*(i+3)
+     )
+    
     clearTimeout()
 }
 function settext_for_tying(line,text,time){
