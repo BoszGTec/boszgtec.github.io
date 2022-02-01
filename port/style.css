@@ -16,6 +16,8 @@ body{
     height: 100%;
     background: linear-gradient(216deg, rgba(0,212,255,1) 0%, rgba(53,37,255,1) 46%, rgba(236,0,51,1) 100%);
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow-x: hidden;
 }
 a{
@@ -61,4 +63,11 @@ h3{
     margin-top: 5rem;
     background-color: rgba(255, 255, 255, 0.123);
     border-top: solid rgba(255, 255, 255, 0.596) 0.5px;
+}
+
+@media screen and (max-width:1000px) {
+    #navi{
+        opacity: 0%;
+        display: none;
+    }
 }
