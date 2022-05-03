@@ -9,7 +9,7 @@
 - [<img height="10px" src="https://github.com/BoszGTec/Bkeyboard-Full-Pb/raw/main/image/Logo.png" />
   BKeyboard-Pb-ver](https://github.com/BoszGTec/Bkeyboard-Full-Pb)
   [![](https://camo.githubusercontent.com/1a533a6100a941ff0e0789a565c357d0485d75b2df6e7253d9272c11eaf84534/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f70696e2f3f757365726e616d653d426f737a47546563267265706f3d426b6579626f6172642d46756c6c2d5062)
-  ](https://boszgtec.github.io/Bkeyboard-Full-Pb/)
+  ](https://github.com/BoszGTec/Bkeyboard-Full-Pb)
   or
   [🌐BKeyboard-Pb-ver](https://boszgtec.github.io/Bkeyboard-Full-Pb/)
 
