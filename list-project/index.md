@@ -20,7 +20,7 @@
   or
   [🌐Text-Style-Gen-Tool](https://boszgtec.github.io/Text-Style-Gen-Tool/)
 
-- [<img height="10px" src="https://github.com/BoszGTec/Glow-Gen-Tool/blob/main/20211219_031528.png" />
+- [<img height="10px" src="https://github.com/BoszGTec/Glow-Gen-Tool/raw/main/20211219_031528.png" />
   Glow-Gen-Tool](https://github.com/BoszGTec/Glow-Gen-Tool)
   [![](https://camo.githubusercontent.com/2707b5d904a3492120a89be1774148c81714ef5e80bd263847f22d9ae39621c7/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f70696e2f3f757365726e616d653d426f737a47546563267265706f3d476c6f772d47656e2d546f6f6c)
   ](https://github.com/BoszGTec/Glow-Gen-Tool)
