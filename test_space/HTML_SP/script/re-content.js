@@ -1,6 +1,6 @@
 //input from : <input id="ct-height" style="width: 200px ;" type="range" class="form-range" min="100" max="1000" / >    
-function re-ct(){
+function re_ct(){
  var ct = document.getElementById("Content")
- var ct-h = document.getElementById("ct-height")
- ct.style = " height : " + ct-h.value + "px ;"
+ var ct_h = document.getElementById("ct-height")
+ ct.style = " height : " + ct_h.value + "px ;"
 }
