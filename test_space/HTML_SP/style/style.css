@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@200&display=swap');
+
 body{
  margin : 10px;
 }
 
 #theme , #Input , #Key {
  font-family: 'IBM Plex Sans Thai', sans-serif;
+  font-weight : 500 ;
+}
+
+#Input{
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  font-weight : 200;
 }
 
 #Content{
