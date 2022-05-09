@@ -12,7 +12,7 @@ function c_theme() {
   
   var texta = document.getElementsByTagName("textarea")
   for(let i=0;i<texta.length;i++){
-    texta[i].style = "background-color : var(--bs-dark) ; \
+    texta[i].style = "background-color : #000 ; \
                       color : var(--bs-gray-300) ; "
   }
   
