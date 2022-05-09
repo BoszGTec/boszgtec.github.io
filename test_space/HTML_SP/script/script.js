@@ -10,7 +10,7 @@ function Display_html() {
 
  if( key.value == Rkey ) {
   key.readOnly = true
-  ct.innerHTML = "<style>"+inp_css+"</style>"
+  ct.innerHTML = "<style>"+inp_css.value+"</style>"
   ct.innerHTML += inp.value
  }
  else {
