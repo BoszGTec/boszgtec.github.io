@@ -3,4 +3,5 @@ function re_ct(){
  var ct = document.getElementById("Content")
  var ct_h = document.getElementById("ct-height")
  ct.style = " height : " + ct_h.value + "px ;"
+ ct.innerText = " height : " + ct_h.value + "px ;"
 }
