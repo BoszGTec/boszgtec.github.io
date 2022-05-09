@@ -16,7 +16,7 @@ function c_theme() {
                       color : var(--bs-gray-300) ; "
   }
   
-  var ct = document.getElementsByTagName("Content")
+  var ct = document.getElementById("Content")
   ct.style = "background-color : #000 ; \
                 color : var(--bs-gray-300) ; "
 
@@ -37,7 +37,7 @@ function c_theme_2() {
     texta[i].style = ""
   }
 
-  var ct = document.getElementsByTagName("Content")
+  var ct = document.getElementById("Content")
   ct.style = ""
 
   set_button_2()
