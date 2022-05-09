@@ -16,6 +16,10 @@ function c_theme() {
                       color : var(--bs-gray-300) ; "
   }
   
+  var ct = document.getElementsByTagName("Content")
+  ct.style = "background-color : #000 ; \
+                color : var(--bs-gray-300) ; "
+
   set_button()
 }
 
@@ -32,6 +36,10 @@ function c_theme_2() {
   for(let i=0;i<texta.length;i++){
     texta[i].style = ""
   }
+
+  var ct = document.getElementsByTagName("Content")
+  ct.style = ""
+
   set_button_2()
 }  
 
