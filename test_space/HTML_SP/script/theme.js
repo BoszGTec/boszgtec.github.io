@@ -6,8 +6,10 @@ function c_theme() {
   
   var inp = document.getElementsByTagName("input")
   for(let i=0;i<inp.length;i++){
-    inp[i].style = "background-color : #000 ; \
-                    color : var(--bs-gray-300) ; "
+    if(inp.type != "button"){
+     inp[i].style = "background-color : #000 ; \
+                     color : var(--bs-gray-300) ; "
+    }
   }
   
   var texta = document.getElementsByTagName("textarea")
