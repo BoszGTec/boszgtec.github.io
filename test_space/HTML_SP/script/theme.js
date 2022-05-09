@@ -23,6 +23,7 @@ function c_theme() {
                 color : var(--bs-gray-300) ; "
 
   set_button()
+  re_ct()
 }
 
 function c_theme_2() {
@@ -43,6 +44,7 @@ function c_theme_2() {
   ct.style = ""
 
   set_button_2()
+  re_ct()
 }  
 
 
