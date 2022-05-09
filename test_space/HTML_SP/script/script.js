@@ -1,7 +1,8 @@
-//แสดงผล html
+//แสดงผล html,css
 /* ปิด */
 function Display_html() {
  var inp = document.getElementById("Input")
+ var inp_css = document.getElementById("Input-css")
  var ct = document.getElementById("Content")
 
  var key = document.getElementById("Key")
@@ -9,7 +10,8 @@ function Display_html() {
 
  if( key.value == Rkey ) {
   key.readOnly = true
-  ct.innerHTML = inp.value
+  ct.innerHTML = "<style>"+inp_css+"</style>"
+  ct.innerHTML += inp.value
  }
  else {
   ct.innerHTML = "invalid key"
@@ -17,5 +19,4 @@ function Display_html() {
  }
 
 }
-
 
