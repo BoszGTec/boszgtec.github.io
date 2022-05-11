@@ -42,7 +42,6 @@ body{
  font-size : 5px;
  margin-top : 10px;
  height : 10px;
- margin-bottom : 20px;
 }
 
 #Bt-del{
@@ -83,6 +82,7 @@ body{
  font-family: 'IBM Plex Sans Thai', sans-serif;
  font-size : 14px ;
  font-weight : 200 ;
+ margin-top : 20px;
  margin-bottom : 110px;
 }
 
