@@ -6,7 +6,7 @@ function c_theme() {
   
   var inp = document.getElementsByTagName("input")
   for(let i=0;i<inp.length;i++){
-    if(inp[i].type != "button"){
+    if( inp[i].type != "button" && inp[i].type != "checkbox"){
      inp[i].style = "background-color : #000 ; \
                      color : var(--bs-gray-300) ; "
     }
