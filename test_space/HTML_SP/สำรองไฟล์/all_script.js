@@ -110,6 +110,7 @@ function c_rule(){
  var key = document.getElementById("Key")
 
  if (inp_rule.checked){
+  inp_rule.disabled = true
   Key.hidden = false
  }
 
