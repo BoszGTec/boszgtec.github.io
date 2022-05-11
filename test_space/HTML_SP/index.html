@@ -62,13 +62,14 @@
   <input class="form-control" id="Key" />
   <div class="rule">
    <div>ข้อตกลงการใช้งาน : ห้ามนำโค้ดที่มีความเสี่ยงหรืออันตรายมาใช้ที่นี้</div>
-   <input id="inp-rule" type="checkbox" class="form-check-input"/>
+   <input id="inp-rule" oninput="c_rule()" type="checkbox" class="form-check-input"/>
    <label class="form-check-label">&nbspฉันยอมรับข้อตกลงทั้งหมด</label>
   </div>
 
   <script src="script/script.js" ></script>
   <script src="script/theme.js" ></script>
   <script src="script/re-content.js" ></script>
+  <script src="script/check-rule.js" ></script>
  </body>
 </html>
 
