@@ -6,6 +6,4 @@ function c_rule(){
   Key.hidden = false
  }
 
- Display_html() 
-
 }
