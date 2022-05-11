@@ -6,9 +6,8 @@ function Display_html() {
  var ct = document.getElementById("Content")
 
  var key = document.getElementById("Key")
- var Rkey = c_key()
 
- if( key.value == Rkey ) {
+ if( c_key(key.value) ) {
   key.readOnly = true
   ct.innerHTML = "<style>"+inp_css.value+"</style>"
   ct.innerHTML += inp.value
