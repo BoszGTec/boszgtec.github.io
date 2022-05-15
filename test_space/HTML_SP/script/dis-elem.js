@@ -15,12 +15,12 @@ function ava_html(){
 function dis_css(){
  document.getElementById("Input-css").disabled = true 
  document.getElementById("dis-css").value = "+"
- document.getElementById("dis-css").onclick = "ava_html()"
+ document.getElementById("dis-css").onclick = "ava_css()"
 }
 
 function ava_css(){
  document.getElementById("Input-css").disabled = false
  document.getElementById("dis-css").value = "-"
- document.getElementById("dis-css").onclick = "dis_html()"
+ document.getElementById("dis-css").onclick = "dis_css()"
 }
 
