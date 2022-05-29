@@ -11,9 +11,9 @@
 }
 
 body{
- margin-top: 10px;
- margin-right: 2.5%;
- margin-left: 2.5%;
+ padding-top: 10px;
+ padding-right: 2.5%;
+ padding-left: 2.5%;
 }
 
 #theme , #Key {
@@ -57,6 +57,7 @@ body{
 
 .title{
  font-size : 10px ; 
+ background-color : none ;
  margin : 0px ; 
  width :100% ;
  border-bottom :  none ;
