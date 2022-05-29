@@ -2,25 +2,25 @@ c_theme()
 function c_theme() {
   var body = document.getElementsByTagName("body")[0]
   body.style = "background-color : #000 ; \
-                color : var(--bs-gray-300) ; "
+                color : #dee2e6 ; "
   
   var inp = document.getElementsByTagName("input")
   for(let i=0;i<inp.length;i++){
     if( inp[i].type != "button" && inp[i].type != "checkbox"){
      inp[i].style = "background-color : #000 ; \
-                     color : var(--bs-gray-300) ; "
+                     color : #dee2e6 ; "
     }
   }
   
   var texta = document.getElementsByTagName("textarea")
   for(let i=0;i<texta.length;i++){
     texta[i].style = "background-color : #000 ; \
-                      color : var(--bs-gray-300) ; "
+                      color : #dee2e6 ; "
   }
   
   var ct = document.getElementById("Content")
   ct.style = "background-color : #000 ; \
-                color : var(--bs-gray-300) ; "
+                color : #dee2e6 ; "
 
   set_button()
   re_ct()
