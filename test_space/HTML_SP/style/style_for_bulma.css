@@ -61,7 +61,7 @@ body{
  background-color : none ;
  margin : 0px ; 
  width :100% ;
- border-bottom :  none ;
+ /*border-bottom :  none ;*/
  border-right : none ;
  padding-left : 10px ;
  border-radius : 5px 0px 0px 0px ;
