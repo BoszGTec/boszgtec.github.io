@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@200&display=swap');
+
+*::-webkit-scrollbar , *::-webkit-scrollbar-corner{
+ background-color: var(--bs);
+ width : 5px ;
+}
+
+*::-webkit-scrollbar-thumb {
+ background-color: hsl(0, 0%, 48%) ;
+}
+
+body{
+ margin-top: 10px;
+ margin-right: 2.5%;
+ margin-left: 2.5%;
+}
+
+#theme , #Key {
+ font-family: 'IBM Plex Sans Thai', sans-serif;
+  font-weight : 500 ;
+}
+
+#ct-height{
+ width : 160px ;
+}
+
+#Input , #Input-css{
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  font-weight : 200;
+}
+
+#Content{
+ height:250px; 
+ width :100%; 
+ padding : 6px; 
+ margin-bottom : 30px;
+ overflow : scroll;
+}
+   
+#Key{
+ font-size : 5px;
+ margin-top : 10px;
+ height : 10px;
+}
+
+#Bt-del{
+ width : 100% ; 
+ height : 15px; 
+ font-size : 10px ; 
+ padding : 0px ;
+}
+
+.box-title{
+ height : 15px
+}
+
+.title{
+ font-size : 10px ; 
+ margin : 0px ; 
+ width :100% ;
+ border-bottom :  none ;
+ border-right : none ;
+ padding-left : 10px ;
+ border-radius : 5px 0px 0px 0px ;
+}
+
+.title-bt{
+ font-size : 10px ; 
+ padding-top : 0px ;
+ border-bottom : none ;
+ border-radius : 0px 5px 0px 0px ;
+}
+
+.title-bt2{
+ font-size : 10px ; 
+ padding-top : 0px ;
+ border-radius : 0px ;
+ border-right : none ;
+ border-bottom : none ;
+}
+
+.box-under-title{
+ border-radius : 0px 0px 5px 5px ;
+}
+
+.rule{
+ font-family: 'IBM Plex Sans Thai', sans-serif;
+ font-size : 14px ;
+ font-weight : 200 ;
+ margin-top : 20px;
+ margin-bottom : 110px;
+}
+
+@media screen and (min-width: 750px){
+ .flex-ct{
+  display : flex ;
+  justify-content : space-between ;
+ }
+ .flex-ct>div {
+    width: 49%;
+ }
+}
