@@ -1,4 +1,4 @@
-# <img height=20px src="https://raw.githubusercontent.com/BoszGTec/boszgtec.github.io/main/port/image/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%A0%E0%B8%B2%E0%B8%9E1.png">boszgtec.github.io
+# <img height=25px src="https://github.com/BoszGTec/My-Source/raw/main/Icon_Logo/BoszGTec_logo_light.ico">boszgtec.github.io
 ![GitHub repo size](https://img.shields.io/github/repo-size/BoszGTec/boszgtec.github.io?color=f0f0f0&logo=Github&label=Repo%20size)
 
 เว็บสำหรับบันทึกประวัติงาน/ข้อมูลอื่นๆ
